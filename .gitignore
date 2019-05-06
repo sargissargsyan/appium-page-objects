@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea/
+/appium-page-objects.iml
+/package.json
+/target/

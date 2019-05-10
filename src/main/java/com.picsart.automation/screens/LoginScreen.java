@@ -70,10 +70,6 @@ public class LoginScreen extends BaseScreen {
         return faceookButton.isDisplayed();
     }
 
-    public void clickSignInLink() {
-        webDriverWait.until(ExpectedConditions.visibilityOf(signInLink)).click();
-    }
-
     public void login(String username, String password) {
         driver.findElement(By.id("com.picsart.studio.light:id/on_boarding_sign_in_username")).sendKeys(username);
         driver.findElement(By.id("com.picsart.studio.light:id/on_boarding_sign_in_password")).sendKeys(password);

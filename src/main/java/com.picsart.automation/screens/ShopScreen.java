@@ -37,6 +37,6 @@ public class ShopScreen extends BaseScreen {
     }
 
     public String getTabName(int index) {
-        return  tabs.get(0).findElement(By.className("android.widget.TextView")).getText();
+        return  tabs.get(index).findElement(By.className("android.widget.TextView")).getText();
     }
 }

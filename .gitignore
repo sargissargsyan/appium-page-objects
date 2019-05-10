@@ -3,3 +3,6 @@
 /appium-page-objects.iml
 /package.json
 /target/
+/node_modules/
+/node/
+/etc/
